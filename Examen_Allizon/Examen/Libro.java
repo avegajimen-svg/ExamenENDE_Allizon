@@ -6,4 +6,13 @@ public class Libreria
 	String autor;
 	String ISBN;
 	Boolean prestado;
+
+public Libro(String titulo, String autor, String iSBN, Boolean prestado)
+{
+super();
+this.titulo = titulo;
+this.autor = autor;
+ISBN = iSBN;
+this.prestado = prestado;
+}
 }
