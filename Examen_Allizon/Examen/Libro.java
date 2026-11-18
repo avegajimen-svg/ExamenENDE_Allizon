@@ -14,4 +14,19 @@ this autor = autor;
 ISBN = iSBN;
 this.prestado = prestado;
 }
+public String getAutor()
+{
+	return autor;
+}
+
+public void setAutor(String autor)
+{
+	this.autor = autor;
+}
+
+@Override
+public String toString()
+{
+	return "Libro [titulo=" + titulo + ", autor=" + autor + ", ISBN=" + ISBN + ", prestado=" + prestado + "]";
+}
 }
